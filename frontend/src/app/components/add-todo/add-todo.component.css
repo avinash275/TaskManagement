@@ -1,0 +1,10 @@
+.addcomponent{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.259);
+}

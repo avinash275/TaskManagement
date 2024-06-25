@@ -1,0 +1,37 @@
+.strike{
+    text-decoration: line-through;
+}
+
+  table {
+    border-collapse: collapse; /* Removes space between cells */
+    width: 100%; /* Optional: Set table to full width */
+  }
+  
+  th, td {
+    padding: 5px; /* Adjust padding as needed */
+    /* border: 1px solid #ddd; Add borders for definition */
+  }
+  
+  
+  /* Define fixed widths for each column */
+  th:nth-child(1), td:nth-child(1) {
+    width: 150px; /* Adjust width for Column 1 */
+  }
+  
+  th:nth-child(2), td:nth-child(2) {
+    width: 300px; /* Adjust width for Column 2 */
+  }
+  
+  th:nth-child(3), td:nth-child(3) {
+    width: 200px; /* Adjust width for Column 3 */
+  }
+  
+  /* Wrap content within fixed width */
+  th, td {
+    word-wrap: break-word;
+    overflow: hidden; /* Hide content that overflows the width */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflowing content (optional) */
+  }
+  
+  
+      
